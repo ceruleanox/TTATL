@@ -1,7 +1,7 @@
 import requests
 import csv
 
-API_KEY = 'FEJMZ9K3NIAZLDT5'
+API_KEY = ''
 
 def getData():
     symbols = ['DIS', 'BA', 'FB', 'JPM']
