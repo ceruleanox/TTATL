@@ -1,6 +1,6 @@
 const WIN = 1000
 function Quiz(questions) {
-    this.score = 0;
+    this.score = 1000;
     this.questions = questions;
     this.questionIndex = 0;
 }
