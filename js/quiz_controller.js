@@ -1,5 +1,6 @@
+const WIN = 1000
 function Quiz(questions) {
-    this.score =0;
+    this.score = 0;
     this.questions = questions;
     this.questionIndex = 0;
 }
@@ -15,8 +16,10 @@ Quiz.prototype.isEnded = function() {
 Quiz.prototype.guess = function(answer) {
     
     if(this.getQuestionIndex().correctAnswer(answer)) {
-        this.score++;
+        this.score += WIN;
     }
+
+   
 
     this.questionIndex++;
  }

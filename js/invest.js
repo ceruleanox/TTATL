@@ -32,5 +32,4 @@ Invest.prototype.getInvestChoice = function(choice) {
 
 // Invest.prototype.makeChoice = function(choice) {
 
-
 // }
